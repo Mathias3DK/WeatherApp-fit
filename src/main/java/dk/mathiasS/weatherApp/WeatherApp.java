@@ -1,6 +1,8 @@
 package dk.mathiasS.weatherApp;
 
 
+import dk.mathiasS.weatherApp.app.WeatherAppGui;
+
 import javax.swing.*;
 
 public class WeatherApp {
@@ -10,7 +12,7 @@ public class WeatherApp {
             public void run(){
                 // display our weather app gui
 
-                new dk.mathiasS.dashboard.weatherApp.app.WeatherAppGui().setVisible(true);
+                new WeatherAppGui().setVisible(true);
             }
 
             //add switch fra timer så man kan se fremtidige timer
